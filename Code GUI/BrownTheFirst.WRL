@@ -1,0 +1,26 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF Boule Transform {
+	translation	0 0 0
+	scale	0.635239 0.635239 0.635239
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.1
+				diffuseColor	0.971138 0.978354 1
+				shininess	0.7
+				specularColor	0.25 0.25 0.25
+			}
+
+		}
+
+		geometry	Sphere {
+		}
+
+	}
+}

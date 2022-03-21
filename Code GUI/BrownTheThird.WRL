@@ -1,0 +1,88 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF B1 Transform {
+	translation	2.1415 0.0575 10.8
+	center	5 0 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	0.8 0.521969 0.537569
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.2
+		}
+
+	}
+}
+DEF B2 Transform {
+	translation	-2.60473 3.31826 0.494461
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	0.98 0.0248037 0.336406
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.2
+		}
+
+	}
+}
+DEF B3 Transform {
+	translation	7.13358 -3.6081 1.93715e-007
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	0.457642 0.9 0.455753
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.2
+		}
+
+	}
+}
+DEF B4 Transform {
+	translation	-2.29734 -3.78952 7.45058e-008
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.0161565 0.8 0.784408
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.2
+		}
+
+	}
+}
+DEF B5 Transform {
+	translation	7.55864 3.75823 1.93715e-007
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.2
+		}
+
+	}
+}
